@@ -1,4 +1,5 @@
 # yatube_project
+
 ### Описание
 Социальная сеть блогеров
 ### Технологии
@@ -45,4 +46,3 @@ python manage.py test
 python manage.py test posts.tests.test_urls -v 2 
 coverage run --source='posts,users' manage.py test posts.tests.test_urls -v 2
 coverage report
-
